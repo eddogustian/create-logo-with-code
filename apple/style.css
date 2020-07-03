@@ -1,0 +1,32 @@
+.container {
+    margin: 90px auto 0 auto;
+    max-width: 180px;
+}
+.apple {
+    background: black;
+    width: 208px;
+    height: 198px;
+    position: absolute;
+    border-radius: 35% 35% 41% 41% / 42% 42% 75% 75%;
+}
+.apple:before {
+    background: black;
+    content: "";
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin: -51px 0 0 100px;
+    border-radius: 100px 0;
+    z-index: 5;
+}
+.apple:after {
+    background: white;
+    content: "";
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin: 28px 0 0 174px;
+    border-radius: 50%;
+    z-index: 4;
+    box-shadow: -127px -109.5px 0 white, -118px -107px 0 white, -115.5px -102.5px 0 white, -105.5px -109.5px 0 white, -105px -109.5px 0 white, -129px 166px 0 white, -107.5px 166px 0 white, -119px 161px 0 white;
+}
